@@ -140,6 +140,12 @@
 
 </div>
 
+<%= simple_form_for @photo, url: '#' do |f| %>
+  <%= f.input :caption %>
+  <%= f.submit "Upload", class: 'btn btn-primary' %>
+
+  <% end %>
+
 
 
 
