@@ -27,6 +27,7 @@ end
 
 def show
   @place = Place.find(params[:id])
+  @comment = Comment.new
   end
 
 
