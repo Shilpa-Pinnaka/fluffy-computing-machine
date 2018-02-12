@@ -46,7 +46,11 @@
 
   <% if current_user && current_user == @place.user %>
 
-  <%= link_to 'Photo', place_photos_path(@place), method: :post, class: 'btn btn-primary' %>
+   <button type="button" class="btn btn-primary btn-lg float-right" data-toggle="modal" data-target="#mynewModal">
+
+    Add a Photo
+
+  </button>
 
   <%= link_to 'Edit', edit_place_path(@place), class: 'btn btn-primary' %>
    
