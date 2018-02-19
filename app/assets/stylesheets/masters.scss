@@ -105,7 +105,16 @@ img {
   height: 550px;
   margin-left: auto;
   margin-right: auto;
+  display: block;
 
 }
 
+.extra-margin {
+  margin-top: 20px;
+}
+
+.add-space-between .btn {
+margin-left: 5px;
+  
+}
 
