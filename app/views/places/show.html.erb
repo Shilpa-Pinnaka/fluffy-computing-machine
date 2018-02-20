@@ -187,11 +187,13 @@
 
 
   
-<h1>Photos</h1>
-<br /><br />
+<h1 class="pic">Photos</h1>
+<br />
+
 <% @place.photos.each do |photo| %>
+   <p class="caption"><%= photo.caption %></p>
   <%= image_tag photo.picture %>
-  <p><%= photo.caption %></p>
+ 
 <% end %>
 
 
