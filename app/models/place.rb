@@ -10,4 +10,7 @@ after_validation :geocode
 validates :name, length: { minimum: 3 }, presence: true
 validates :address, presence: true
 validates :description, presence: true
+
+max_paginates_per 5
+
 end

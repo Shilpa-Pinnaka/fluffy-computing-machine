@@ -75,6 +75,9 @@ gem 'carrierwave', '~> 1.0'
 
 gem "fog-aws"
 
+gem 'kaminari', :git => "git://github.com/amatsuda/kaminari.git", :branch => 'master'
+
+
 
 
 
