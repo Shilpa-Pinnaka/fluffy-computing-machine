@@ -7,6 +7,6 @@ Kaminari.configure do |config|
   # config.left = 0
   # config.right = 0
   # config.page_method_name = :place
-  # config.param_name = :place
+  # config.param_name = :page
   # config.params_on_first_page = false
-end
+end 

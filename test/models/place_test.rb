@@ -5,3 +5,5 @@ class PlaceTest < ActiveSupport::TestCase
   #   assert true
   # end
 end
+
+
