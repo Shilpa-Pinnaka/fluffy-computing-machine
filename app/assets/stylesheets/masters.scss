@@ -3,6 +3,7 @@
 
 @import "bootstrap";
 @import "font-awesome";
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 .booyah-box {
   -moz-box-shadow: 1 px 1 px 2 px 0 #d0d0d0;
@@ -23,11 +24,11 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6 {
 }
 
 body {
-  background: image_url('sakura.png');
+  background: image_url('light-veneer.png');
    font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
 
-.navbar .navbar-inverse {
+.navbar {
   background: image_url('polka-dots.png');
   box-shadow: 0px 1px 3px #2a2a2a;
   margin-bottom: 0;
@@ -35,8 +36,8 @@ body {
 }
 
 .navbar-inverse .navbar-brand {
-  color: #E3E85A;
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  color: #fdeb8d;
+  font-family: 'Raleway', sans-serif;
   font-size: 26px;
 }
 
@@ -82,12 +83,12 @@ blockquote p {
 }  
 
 .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
-  max-height: 550px;
-  width: 100%;
+  max-height: 450px;
+  width: auto;
 }
 
 .carousel-caption {
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 60px;
   font-weight: 100;
   text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
@@ -95,6 +96,7 @@ blockquote p {
   width: 100%;
   position: absolute;
   left: 0;
+  color: #fdeb8d
   }
 
   .carousel {
@@ -128,4 +130,8 @@ text-align: center
   font-weight: bold;
 }
 
+a {
+  color: #3c763d;
+  font-family: 'Raleway', sans-serif;
+}
 
