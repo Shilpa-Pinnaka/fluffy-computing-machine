@@ -75,12 +75,13 @@
              <%= place.comments.last.message %>
              <small><%= place.comments.last.user.email %></small>
            </blockquote>
+           </div>
+         <% end %> 
        
             <p class="caption"><%= place.photos.first.caption %></p>
-            <%= image_tag place.photos.first.picture %>
+            <%= image_tag1 place.photos.first.picture %>
 
-         </div>
-         <% end %> 
+         
    </div>
 
  <% end %>
