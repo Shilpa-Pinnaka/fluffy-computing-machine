@@ -32,8 +32,7 @@ body {
   background: image_url('polka-dots.png');
   box-shadow: 0px 1px 3px #2a2a2a;
   margin-bottom: 0;
-  position: fixed;
-  top: 0;
+  
 }
 
 .navbar-inverse .navbar-brand {
@@ -103,15 +102,17 @@ blockquote p {
   color: #fdeb8d
   }
 
-  .carousel {
+ .carousel {
   box-shadow: 0px 3px 8px #2a2a2a;
-  }
+}
 
 img {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  width: 550px;
+  width: auto;
+  max-height: 350px;
+  min-height: 350px;
 }
 
 .extra-margin {

@@ -78,9 +78,10 @@
            </div>
          <% end %> 
        
+            <% if place.photos.present? %>
             <p class="caption"><%= place.photos.first.caption %></p>
             <%= image_tag place.photos.first.picture %>
-
+            <% end %>
          
    </div>
 
